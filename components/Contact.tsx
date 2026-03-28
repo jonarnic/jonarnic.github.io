@@ -62,8 +62,9 @@ export default function Contact() {
           <div>
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Get in Touch</h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Senior AI and Full-Stack Engineer based in Houston, TX — open to roles that blend
-              cloud-native platforms, enterprise AI, and high-impact full-stack delivery.
+              Senior Software Engineer based in Houston, TX and open to impactful software
+              engineering opportunities across full-stack web and mobile systems, cloud-native
+              architecture, and AI integration.
             </p>
           </div>
 

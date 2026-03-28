@@ -59,9 +59,9 @@ const experiences: Experience[] = [
     company: 'ScienceSoft',
     location: 'United States (Remote)',
     period: 'Feb 2024 — Present',
-    companyLogoUrl: 'https://logo.clearbit.com/sciencesoft.com',
-    companyLogoFallbackUrl:
-      'https://ui-avatars.com/api?name=ScienceSoft&background=0284c7&color=fff&size=128',
+    companyLogoUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGnyek-0IkPT3crSQ-JX5dgcT7Ea4ndwNtw&s',
+    companyLogoFallbackUrl: 'https://logo.clearbit.com/sciencesoft.com',
     description: [
       'Architected ML-driven document analysis pipelines using Python and NLP, automating the extraction of key data points from unstructured documents for international clients.',
       'Developed a Context-Aware Query Service using RAG (Retrieval-Augmented Generation) and LangChain, improving search accuracy and relevance in enterprise knowledge bases.',
@@ -87,8 +87,9 @@ const experiences: Experience[] = [
     company: 'IBM',
     location: 'United States (Remote)',
     period: 'Jan 2022 — Jan 2024',
-    companyLogoUrl: 'https://cdn.simpleicons.org/ibm/006699',
-    companyLogoFallbackUrl: 'https://logo.clearbit.com/ibm.com',
+    companyLogoUrl:
+      'https://substackcdn.com/image/fetch/$s_!1XDp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb162f2d8-7878-4f8c-9b3f-6184293024dc_1000x1000.jpeg',
+    companyLogoFallbackUrl: 'https://cdn.simpleicons.org/ibm/006699',
     description: [
       'Led the design of a federated GraphQL API gateway using Node.js, centralizing data from multiple enterprise microservices and reducing frontend request overhead by 40%.',
       'Developed production web platforms using React, TypeScript, and Redux, prioritizing responsive design and accessibility for global SaaS analytics users.',
@@ -110,8 +111,9 @@ const experiences: Experience[] = [
     company: 'Microsoft',
     location: 'Houston, TX (Hybrid)',
     period: 'Jun 2019 — Dec 2021',
-    companyLogoUrl: 'https://cdn.simpleicons.org/microsoft/00a4ef',
-    companyLogoFallbackUrl: 'https://logo.clearbit.com/microsoft.com',
+    companyLogoUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/500px-Microsoft_logo.svg.png',
+    companyLogoFallbackUrl: 'https://cdn.simpleicons.org/microsoft/00a4ef',
     description: [
       'Developed distributed backend services using C# and .NET Core in Azure, supporting thousands of internal users.',
       'Architected REST APIs integrated with Azure SQL and Service Bus to streamline infrastructure management.',
@@ -125,9 +127,9 @@ const experiences: Experience[] = [
     company: 'TechSolutions Inc',
     location: 'Houston, TX',
     period: 'Mar 2017 — May 2019',
-    companyLogoUrl: 'https://logo.clearbit.com/techsolutions.com',
-    companyLogoFallbackUrl:
-      'https://ui-avatars.com/api?name=TechSolutions&background=0f172a&color=fff&size=128',
+    companyLogoUrl:
+      'https://media.licdn.com/dms/image/v2/C560BAQF2eMEPboCZxQ/company-logo_200_200/company-logo_200_200/0/1630658009427/techsolutions_inc_logo?e=2147483647&v=beta&t=2_zboPSLMnVfYQwUAKNN2XLsNpbUd4UKokpDQLOGq9Y',
+    companyLogoFallbackUrl: 'https://logo.clearbit.com/techsolutions.com',
     description: [
       'Built full-stack web applications using React and Node.js, managing end-to-end development from database design to deployment.',
       'Optimized PostgreSQL databases and implemented Redis caching to improve page load speed by 50%.',

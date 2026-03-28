@@ -10,48 +10,34 @@ type Skill = {
 
 const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
   {
-    title: 'Languages',
+    title: 'Frontend',
     skills: [
-      { name: 'Python', icon: 'python' },
-      { name: 'JavaScript', icon: 'javascript' },
+      { name: 'React', icon: 'react' },
       { name: 'TypeScript', icon: 'typescript' },
-      { name: 'C#', icon: 'csharp' },
-      { name: 'PHP', icon: 'php' },
-      { name: 'SQL', icon: 'mysql' },
-      { name: 'HTML5', icon: 'html' },
-      { name: 'CSS3', icon: 'css' },
+      { name: 'JavaScript', icon: 'javascript' },
+      { name: 'Redux', icon: 'redux' },
+      { name: 'Next.js', icon: 'nextjs' },
     ],
     color: 'from-emerald-500 to-green-500',
   },
   {
-    title: 'Frameworks & Libraries',
+    title: 'Mobile',
     skills: [
-      { name: 'React', icon: 'react' },
-      { name: 'Redux', icon: 'redux' },
-      { name: 'GraphQL', icon: 'graphql' },
-      { name: 'Next.js', icon: 'nextjs' },
-      { name: 'Node.js', icon: 'nodejs' },
-      { name: 'Express', icon: 'express' },
-      { name: 'FastAPI', icon: 'fastapi' },
-      { name: 'Flask', icon: 'flask' },
-      { name: '.NET Core', icon: 'dotnet' },
-      { name: 'jQuery', icon: 'jquery' },
-      {
-        name: 'LangChain',
-        icon: 'langchain',
-        iconUrl: 'https://cdn.simpleicons.org/langchain/1C3C3C',
-      },
+      { name: 'React Native', icon: 'react' },
+      { name: 'Tailwind CSS', icon: 'tailwindcss' },
     ],
     color: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'AI & Data Science',
+    title: 'Backend',
     skills: [
-      { name: 'Machine Learning', icon: 'tensorflow' },
-      { name: 'NLP', icon: 'python' },
-      { name: 'RAG', icon: 'openai' },
-      { name: 'FAISS', icon: 'numpy' },
-      { name: 'Data Pipelines', icon: 'kafka' },
+      { name: 'Node.js', icon: 'nodejs' },
+      { name: 'Express', icon: 'express' },
+      { name: 'Python', icon: 'python' },
+      { name: 'FastAPI', icon: 'fastapi' },
+      { name: 'Flask', icon: 'flask' },
+      { name: 'C#', icon: 'csharp' },
+      { name: 'GraphQL', icon: 'graphql' },
     ],
     color: 'from-indigo-500 to-violet-500',
   },
@@ -60,26 +46,43 @@ const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
     skills: [
       { name: 'AWS', icon: 'aws' },
       { name: 'Azure', icon: 'azure' },
-      { name: 'Kubernetes', icon: 'kubernetes' },
       { name: 'Docker', icon: 'docker' },
-      { name: 'GitHub Actions', icon: 'githubactions' },
+      { name: 'Kubernetes', icon: 'kubernetes' },
       { name: 'Terraform', icon: 'terraform' },
+      { name: 'GitHub Actions', icon: 'githubactions' },
     ],
     color: 'from-orange-500 to-red-500',
   },
   {
-    title: 'Databases',
+    title: 'Database',
     skills: [
-      { name: 'PostgreSQL', icon: 'postgres' },
       { name: 'MongoDB', icon: 'mongodb' },
+      { name: 'PostgreSQL', icon: 'postgres' },
+      { name: 'MySQL', icon: 'mysql' },
+      { name: 'Redis', icon: 'redis' },
       {
         name: 'Microsoft SQL Server',
         icon: 'mysql',
         iconUrl: 'https://cdn.simpleicons.org/microsoftsqlserver/CC2927',
       },
-      { name: 'MySQL', icon: 'mysql' },
-      { name: 'Redis', icon: 'redis' },
-      { name: 'Database Design', icon: 'sqlite' },
+    ],
+    color: 'from-purple-500 to-pink-500',
+  },
+  {
+    title: 'AI & Automation',
+    skills: [
+      { name: 'LLM Integration', icon: 'openai' },
+      { name: 'AI Workflow Automation', icon: 'tensorflow' },
+      {
+        name: 'LangChain',
+        icon: 'langchain',
+        iconUrl: 'https://cdn.simpleicons.org/langchain/1C3C3C',
+      },
+      {
+        name: 'n8n',
+        icon: 'n8n',
+        iconUrl: 'https://cdn.simpleicons.org/n8n/ea4b71',
+      },
     ],
     color: 'from-purple-500 to-pink-500',
   },
@@ -95,7 +98,7 @@ export default function Skills() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Technical Skills</h2>
+          <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skillCategories.map((category, index) => (
               <motion.div
