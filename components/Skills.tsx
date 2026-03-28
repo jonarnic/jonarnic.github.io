@@ -137,6 +137,7 @@ export default function Skills() {
                         width={70}
                         height={70}
                         loading="lazy"
+                        className="h-[70px] w-[70px] rounded-lg object-contain"
                       />
                       <span className="text-sm font-medium leading-tight">{skill.name}</span>
                     </div>
