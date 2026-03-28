@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail, Phone, Globe } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 export default function Hero() {
@@ -49,7 +49,7 @@ export default function Hero() {
         >
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900 mb-4">
-              Jeffrey Bain
+              Jonathan Arnic
             </h1>
           </motion.div>
 
@@ -60,11 +60,25 @@ export default function Hero() {
           </motion.div>
 
           <motion.div variants={itemVariants}>
+            <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+              U.S. Citizen · Houston, TX ·{' '}
+              <a href="mailto:jonathanan925@gmail.com" className="text-primary-600 hover:underline">
+                jonathanan925@gmail.com
+              </a>{' '}
+              ·{' '}
+              <a href="tel:+15127615601" className="text-primary-600 hover:underline">
+                (512) 761-5601
+              </a>
+            </p>
+          </motion.div>
+
+          <motion.div variants={itemVariants}>
             <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Senior Software Engineer with 9 years of experience designing and delivering
-              scalable, production-grade systems across fintech, healthcare, e-commerce, and
-              mobility platforms. Specialized in distributed systems, cloud-native architectures,
-              and AI-powered automation.
+              Senior AI and Full-Stack Engineer with 9+ years of experience architecting scalable
+              cloud-native applications and enterprise AI systems. Proven expertise at Microsoft,
+              IBM, and ScienceSoft building ML pipelines, distributed microservices, and
+              high-performance web platforms—bridging complex system design and user-centric
+              features to drive measurable business impact.
             </p>
           </motion.div>
 
@@ -96,10 +110,10 @@ export default function Hero() {
 
           <motion.div
             variants={itemVariants}
-            className="flex flex-wrap items-center justify-center gap-6 pt-4"
+            className="flex flex-wrap items-center justify-center gap-4 pt-4"
           >
             <a
-              href="https://github.com/jefbbai"
+              href="https://github.com/jonarnic"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors"
@@ -108,7 +122,7 @@ export default function Hero() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/jefbb"
+              href="https://linkedin.com/in/jonaa925"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -117,17 +131,31 @@ export default function Hero() {
               <span>LinkedIn</span>
             </a>
             <a
-              href="mailto:jeffbai924@gmail.com"
+              href="mailto:jonathanan925@gmail.com"
               className="flex items-center gap-2 px-4 py-2 bg-slate-200 text-slate-900 rounded-lg hover:bg-slate-300 transition-colors"
             >
               <Mail size={18} />
               <span>Email</span>
             </a>
+            <a
+              href="tel:+15127615601"
+              className="flex items-center gap-2 px-4 py-2 bg-slate-200 text-slate-900 rounded-lg hover:bg-slate-300 transition-colors"
+            >
+              <Phone size={18} />
+              <span>Call</span>
+            </a>
+            <a
+              href="https://jonarnic.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 border border-slate-300 text-slate-800 rounded-lg hover:bg-white/80 transition-colors"
+            >
+              <Globe size={18} />
+              <span>Website</span>
+            </a>
           </motion.div>
-
         </motion.div>
       </div>
     </section>
   )
 }
-

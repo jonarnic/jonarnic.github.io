@@ -16,12 +16,11 @@ export default function About() {
           <h2 className="text-4xl font-bold text-slate-900 mb-8">About</h2>
           <div className="prose prose-lg max-w-none text-slate-700 leading-relaxed space-y-4">
             <p>
-              Senior Software Engineer with 9 years of experience designing and delivering
-              scalable, production-grade systems across fintech, healthcare, e-commerce, and
-              mobility platforms. Specialized in distributed systems, cloud-native architectures,
-              and AI-powered automation. Proven track record of building high-performance
-              platforms, improving system reliability, and delivering end-to-end full-stack
-              solutions used by large user bases.
+              Senior AI and Full-Stack Engineer with 9+ years of experience architecting scalable
+              cloud-native applications and enterprise AI systems. Proven expertise at Microsoft,
+              IBM, and ScienceSoft building ML pipelines, distributed microservices, and
+              high-performance web platforms. Skilled at bridging complex system design and
+              user-centric features to drive measurable business impact.
             </p>
           </div>
         </motion.div>
@@ -29,5 +28,3 @@ export default function About() {
     </section>
   )
 }
-
-

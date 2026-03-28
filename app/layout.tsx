@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 })
@@ -13,9 +13,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Jeffrey Bain | Senior Software Engineer',
+  title: 'Jonathan Arnic | Senior Software Engineer',
   description:
-    'Senior Software Engineer specializing in full-stack web and mobile development, distributed systems, and AI integration.',
+    'Senior AI and Full-Stack Engineer with 9+ years of experience architecting scalable cloud-native applications and enterprise AI systems.',
 }
 
 export default function RootLayout({
@@ -31,5 +31,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-

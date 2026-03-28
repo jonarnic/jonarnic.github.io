@@ -38,7 +38,7 @@ export default function Navigation() {
             href="#"
             className="text-xl font-bold text-slate-900 hover:text-primary-600 transition-colors"
           >
-            Jeffrey Bain
+            Jonathan Arnic
           </a>
 
           {/* Desktop Navigation */}
@@ -83,4 +83,3 @@ export default function Navigation() {
     </nav>
   )
 }
-

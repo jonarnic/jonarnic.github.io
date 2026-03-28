@@ -24,8 +24,8 @@ export default function Education() {
             <h3 className="text-2xl font-semibold text-slate-900">
               Bachelor of Science in Computer Science
             </h3>
-            <p className="text-lg text-slate-600">University of Georgia | Athens, GA</p>
-            <p className="text-slate-500">Aug 2011 — May 2015</p>
+            <p className="text-lg text-slate-600">University of Texas at Austin | Austin, TX</p>
+            <p className="text-slate-500">Sep 2012 — Dec 2016</p>
           </div>
 
           <div className="mt-10 pt-8 border-t border-slate-200">
@@ -37,7 +37,7 @@ export default function Education() {
             </div>
             <ul className="list-disc list-inside space-y-2 text-slate-700">
               <li>AWS Certified Solutions Architect - Associate</li>
-              <li>Azure Developer Associate</li>
+              <li>Microsoft Azure Certified Developer - Associate</li>
             </ul>
           </div>
         </motion.div>
@@ -45,5 +45,3 @@ export default function Education() {
     </section>
   )
 }
-
-

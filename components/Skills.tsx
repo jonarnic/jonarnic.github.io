@@ -10,33 +10,48 @@ type Skill = {
 
 const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
   {
-    title: 'Frontend',
+    title: 'Languages',
     skills: [
-      { name: 'React', icon: 'react' },
-      { name: 'Vue.js', icon: 'vue' },
-      { name: 'Angular', icon: 'angular' },
-      { name: 'TypeScript', icon: 'typescript' },
+      { name: 'Python', icon: 'python' },
       { name: 'JavaScript', icon: 'javascript' },
+      { name: 'TypeScript', icon: 'typescript' },
+      { name: 'C#', icon: 'csharp' },
+      { name: 'PHP', icon: 'php' },
+      { name: 'SQL', icon: 'mysql' },
+      { name: 'HTML5', icon: 'html' },
+      { name: 'CSS3', icon: 'css' },
     ],
     color: 'from-emerald-500 to-green-500',
   },
   {
-    title: 'Mobile',
+    title: 'Frameworks & Libraries',
     skills: [
-      { name: 'React Native', icon: 'react' },
-      { name: 'Swift (iOS)', icon: 'swift' },
+      { name: 'React', icon: 'react' },
+      { name: 'Redux', icon: 'redux' },
+      { name: 'GraphQL', icon: 'graphql' },
+      { name: 'Next.js', icon: 'nextjs' },
+      { name: 'Node.js', icon: 'nodejs' },
+      { name: 'Express', icon: 'express' },
+      { name: 'FastAPI', icon: 'fastapi' },
+      { name: 'Flask', icon: 'flask' },
+      { name: '.NET Core', icon: 'dotnet' },
+      { name: 'jQuery', icon: 'jquery' },
+      {
+        name: 'LangChain',
+        icon: 'langchain',
+        iconUrl: 'https://cdn.simpleicons.org/langchain/1C3C3C',
+      },
     ],
     color: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'Backend',
+    title: 'AI & Data Science',
     skills: [
-      { name: 'Node.js', icon: 'nodejs' },
-      { name: 'Express', icon: 'express' },
-      { name: 'Python (FastAPI, Django)', icon: 'python' },
-      { name: 'Ruby on Rails', icon: 'rails' },
-      { name: 'Go', icon: 'go' },
-      { name: 'Java', icon: 'java' },
+      { name: 'Machine Learning', icon: 'tensorflow' },
+      { name: 'NLP', icon: 'python' },
+      { name: 'RAG', icon: 'openai' },
+      { name: 'FAISS', icon: 'numpy' },
+      { name: 'Data Pipelines', icon: 'kafka' },
     ],
     color: 'from-indigo-500 to-violet-500',
   },
@@ -45,34 +60,26 @@ const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
     skills: [
       { name: 'AWS', icon: 'aws' },
       { name: 'Azure', icon: 'azure' },
+      { name: 'Kubernetes', icon: 'kubernetes' },
       { name: 'Docker', icon: 'docker' },
-      { name: 'Microservices Architecture', icon: 'kubernetes' },
-      { name: 'REST APIs', icon: 'postman' },
-      { name: 'CI/CD', icon: 'githubactions' },
+      { name: 'GitHub Actions', icon: 'githubactions' },
+      { name: 'Terraform', icon: 'terraform' },
     ],
     color: 'from-orange-500 to-red-500',
   },
   {
-    title: 'Database',
+    title: 'Databases',
     skills: [
-      { name: 'MongoDB', icon: 'mongodb' },
       { name: 'PostgreSQL', icon: 'postgres' },
+      { name: 'MongoDB', icon: 'mongodb' },
+      {
+        name: 'Microsoft SQL Server',
+        icon: 'mysql',
+        iconUrl: 'https://cdn.simpleicons.org/microsoftsqlserver/CC2927',
+      },
       { name: 'MySQL', icon: 'mysql' },
       { name: 'Redis', icon: 'redis' },
-      { name: 'DynamoDB', icon: 'dynamodb' },
-    ],
-    color: 'from-purple-500 to-pink-500',
-  },
-  {
-    title: 'AI & Automation',
-    skills: [
-      { name: 'LLM Integration', icon: 'ai' },
-      { name: 'AI Workflow Automation', icon: 'tensorflow' },
-      {
-        name: 'n8n',
-        icon: 'n8n',
-        iconUrl: 'https://cdn.simpleicons.org/n8n/ea4b71',
-      },
+      { name: 'Database Design', icon: 'sqlite' },
     ],
     color: 'from-purple-500 to-pink-500',
   },
@@ -88,7 +95,7 @@ export default function Skills() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Skills</h2>
+          <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Technical Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skillCategories.map((category, index) => (
               <motion.div
@@ -129,5 +136,3 @@ export default function Skills() {
     </section>
   )
 }
-
-

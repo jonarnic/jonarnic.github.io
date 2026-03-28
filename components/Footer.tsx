@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
             <p className="text-slate-400">
-              © {currentYear} Jeffrey Bain. All rights reserved.
+              © {currentYear} Jonathan Arnic. All rights reserved.
             </p>
             <p className="text-sm text-slate-500 mt-1">
               Built with Next.js, TypeScript, and Tailwind CSS
@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/jefbbai"
+              href="https://github.com/jonarnic"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-slate-800 transition-colors"
@@ -28,7 +28,7 @@ export default function Footer() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/jefbb"
+              href="https://linkedin.com/in/jonaa925"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-slate-800 transition-colors"
@@ -37,7 +37,7 @@ export default function Footer() {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:jeffbai924@gmail.com"
+              href="mailto:jonathanan925@gmail.com"
               className="p-2 rounded-full hover:bg-slate-800 transition-colors"
               aria-label="Email"
             >
@@ -49,5 +49,3 @@ export default function Footer() {
     </footer>
   )
 }
-
-
