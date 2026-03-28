@@ -36,7 +36,12 @@ const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
       { name: 'Python', icon: 'python' },
       { name: 'FastAPI', icon: 'fastapi' },
       { name: 'Flask', icon: 'flask' },
-      { name: 'C#', icon: 'csharp' },
+      {
+        name: 'C#',
+        icon: 'csharp',
+        iconUrl:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pDEP2CRCNpo0fJP_Bslloh2y-j5pRZfTwQ&s',
+      },
       { name: 'GraphQL', icon: 'graphql' },
     ],
     color: 'from-indigo-500 to-violet-500',
@@ -63,7 +68,8 @@ const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
       {
         name: 'Microsoft SQL Server',
         icon: 'mysql',
-        iconUrl: 'https://cdn.simpleicons.org/microsoftsqlserver/CC2927',
+        iconUrl:
+          'https://adaptivedge.com/wp-content/uploads/2018/10/SQL-Server-Logo-300x300.jpg',
       },
     ],
     color: 'from-purple-500 to-pink-500',
@@ -71,7 +77,12 @@ const skillCategories: { title: string; color: string; skills: Skill[] }[] = [
   {
     title: 'AI & Automation',
     skills: [
-      { name: 'LLM Integration', icon: 'openai' },
+      {
+        name: 'LLM Integration',
+        icon: 'openai',
+        iconUrl:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vsZX22ayHv3ZdDAAq4_zRbsyPzrzGelpyA&s',
+      },
       { name: 'AI Workflow Automation', icon: 'tensorflow' },
       {
         name: 'LangChain',
